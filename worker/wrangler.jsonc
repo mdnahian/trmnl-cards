@@ -1,0 +1,15 @@
+{
+  "name": "trmnl-cards",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "kv_namespaces": [
+    // Create with `npx wrangler kv namespace create FRAMES` and paste the id here.
+    { "binding": "FRAMES", "id": "0fd6e20df32344dcaf2d244cbc4614b7" }
+  ],
+  "vars": {
+    // How often the shared card changes, in seconds.
+    "REFRESH_SECONDS": "300"
+  },
+  // Keeps Worker logs (device requests, device error reports) viewable in the Cloudflare dashboard.
+  "observability": { "enabled": true }
+}

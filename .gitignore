@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated at runtime by server.py (the folders are recreated on startup)
+cache/
+frames/
+cards/
+queue.json
+pokemon_pool.json
+device.log
+
+# Local test output of build.py --local-out
+build-out/
+
+# Cloudflare Worker
+worker/node_modules/
+worker/.wrangler/
+.dev.vars
+
+# Local secrets / editor files
+.env
+.DS_Store
+.vscode/
+.idea/

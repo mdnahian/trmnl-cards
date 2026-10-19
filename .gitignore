@@ -12,6 +12,9 @@ queue.json
 pokemon_pool.json
 device.log
 
+# Unedited phone photos (they contain GPS location data)
+doc/images/originals/
+
 # Local test output of build.py --local-out
 build-out/
 
